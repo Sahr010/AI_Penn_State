@@ -120,8 +120,31 @@ The heuristic-based bot uses a genetic algorithm to optimize weights for differe
 
    <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/d2c1b1af-e6c9-41b7-94e3-55a337e056da" />
 
+#### Exploring heuristics using Random Chromosome Generation
 
-   ```bash
+🧬 Genetic Algorithm Workflow (run_genetic_algorithm)
+1. Initialize Population: Randomly generates a set of heuristics (chromosomes).
+2. Evaluate Fitness: Each heuristic plays 5 games; average score is its fitness.
+3. Selection: Uses tournament selection to choose parents.
+4. Crossover: Combines parents to create children heuristics.
+5. Mutation: Randomly tweaks weights within bounds.
+6. Elitism: Best individual is preserved across generations.
+7. Repeat: Evolves population over multiple generations.
+Final Output: Returns and saves the best-performing heuristic.
+
+  '''
+  genetic_algo.run_genetic_algorithm()
+
+  python genetic_algorithm.py
+  '''
+
+#### Run genetic algorithm with specified heuristic - best run
+
+   ```
+heuristic = {'score': 0.612510657516274, 'height': -0.38949116713199194, 'holes': -0.8409069869764874, 'bumpiness': -0.09875057256130093}
+while True:
+     genetic_algo.run_tetris_bot(heuristic, limit=False)
+
    python genetic_algorithm.py
    ```
 
@@ -374,6 +397,7 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
 
 
 
