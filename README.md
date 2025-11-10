@@ -49,7 +49,7 @@ The project includes implementations of three different bots to play the game:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/cooperjrg/tetris-ai.git
+   git clone https://github.com/Sahr010/AI_Penn_State.git
    cd tetris-ai
    ```
 
@@ -352,3 +352,4 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
