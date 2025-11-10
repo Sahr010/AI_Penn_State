@@ -74,6 +74,23 @@ The project includes implementations of three different bots to play the game:
 
 ## Usage
 
+Gameplay Flow (run_tetris_bot)
+Environment Reset: Starts a new game using game.TetrisEnv().
+
+Action Loop:
+
+1. Retrieves all possible actions (e.g. rotations and placements).
+
+2. Scores each action using the heuristic:
+
+score = 𝑤_score ⋅ score + 𝑤_height ⋅ height + 𝑤_holes ⋅ holes + 𝑤_bumpiness ⋅ bumpiness
+
+3. Selects the action with the highest weighted score.
+
+4. Executes the action and continues until the game ends or a step limit is reached.
+
+5. Statistics Logging: After each game, it records performance metrics via Model_Outputs.record_game_statistics
+
 ### Running the Tetris Game Manually
 
 You can play the Tetris game manually using keyboard controls.
@@ -357,6 +374,7 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
 
 
 
