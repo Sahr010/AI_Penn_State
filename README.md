@@ -59,6 +59,8 @@ The project includes implementations of three different bots to play the game:
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
+   <img width="567" height="492" alt="image" src="https://github.com/user-attachments/assets/8b63e37e-e6c5-40a0-b0fc-a2df51fe1cf7" />
+
 
 3. **Install dependencies**:
 
@@ -352,4 +354,5 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
 
