@@ -132,11 +132,11 @@ The heuristic-based bot uses a genetic algorithm to optimize weights for differe
 7. Repeat: Evolves population over multiple generations.
 Final Output: Returns and saves the best-performing heuristic.
 
-  '''
+   ```bash
   genetic_algo.run_genetic_algorithm()
 
   python genetic_algorithm.py
-  '''
+   ```
 
 #### Run genetic algorithm with specified heuristic - best run
 
@@ -397,6 +397,7 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
 
 
 
