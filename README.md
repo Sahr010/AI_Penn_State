@@ -101,7 +101,7 @@ The heuristic-based bot uses a genetic algorithm to optimize weights for differe
 
     Run the program using "genetic_algorithm.py", this code references "game.py" to run the game logic, and "Model_Outputs.py" to record the outputs of each game played in a file called "game_stats.csv"
 
-   <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/d2c1b1af-e6c9-41b7-94e3-55a337e056da" />
+   <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/d2c1b1af-e6c9-41b7-94e3-55a337e056da" />
 
 
    ```bash
@@ -357,6 +357,7 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
 
 
 
