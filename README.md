@@ -59,8 +59,6 @@ The project includes implementations of three different bots to play the game:
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
-   <img width="567" height="492" alt="image" src="https://github.com/user-attachments/assets/8b63e37e-e6c5-40a0-b0fc-a2df51fe1cf7" />
-
 
 3. **Install dependencies**:
 
@@ -101,13 +99,18 @@ The heuristic-based bot uses a genetic algorithm to optimize weights for differe
 
 2. **Run the genetic algorithm to train the bot**:
 
+    Run the program using "genetic_algorithm.py", this code references "game.py" to run the game logic, and "Model_Outputs.py" to record the outputs of each game played in a file called "game_stats.csv"
+
+   <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/d2c1b1af-e6c9-41b7-94e3-55a337e056da" />
+
+
    ```bash
    python genetic_algorithm.py
    ```
 
    This will start the training process, where the bot evolves over generations to find the best weights.
 
-3. **Run the bot with the best-found heuristic weights**:
+4. **Run the bot with the best-found heuristic weights**:
 
    The `genetic_algorithm.py` script, after training, will use the best heuristic found to run the Tetris bot without any limits. The bot will play the game automatically using the optimized weights.
 
@@ -354,5 +357,6 @@ For any questions or suggestions, please contact cjrgilkey@gmail.com.
 ---
 
 Enjoy experimenting with the Tetris AI Environment!
+
 
 
